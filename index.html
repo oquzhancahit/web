@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cahit Gökkaya - Producer/Musician</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+        .social-icons {
+            margin: 20px 0;
+        }
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .section {
+            margin: 40px 0;
+        }
+        .section-title {
+            font-size: 24px;
+            border-bottom: 2px solid #fff;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: calc(30% - 10px); /* Resimlerin genişliğini ayarlayın */
+            height: auto; /* Yükseklik otomatik olsun */
+            object-fit: cover;
+            margin: 5px; /* Resimler arası boşluk */
+            cursor: pointer;
+        }
+        .video-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .video-container iframe {
+            flex: 1 1 calc(50% - 10px);
+            height: 315px;
+        }
+        /* Lightbox CSS */
+        .lightbox {
+            display: none;
+            position: fixed;
+            z-index: 999;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+        .lightbox-content {
+            margin: auto;
+            display: block;
+            width: 80%;
+            max-width: 700px;
+        }
+        .lightbox-content img {
+            width: 100%;
+        }
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #fff;
+            font-size: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .close:hover,
+        .close:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.hizliresim.com/svgxxsd.jpg" alt="Cahit Gökkaya" class="profile-img">
+        <h1>Cahit Gökkaya</h1>
+        <h2>Musician, Producer, Editor/Director</h2>
+        
+        <div class="social-icons">
+            <a href="--github adresi" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="--insta" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="--https://x.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="--https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="--https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">About</h3>
+            <p>Cahit Gökkaya, 2004 yılında Antalya'da doğmuştur. Erken yaşta müziğe ilgi duyup kendi temellerini ilköğretim ve lise yıllarında sağlam bir şekilde atmıştır. Ortaokul yıllarında kurgu, montaj, video fotoğraf düzenleme, 3D modelleme becerileri kazanmaya başlamıştır ve bilgisayar alanındaki bu ilgisi DAW yazılımlarında hızlı yol kat etmesini sağlamıştır. 2022 yılında müzik ve kayıt teknolojileriyle ilgilenmeye başlayarak yeni bir diyara geçiş yapmış ve kendini geçen 2 yılda geliştirerek Mix&Mastering Kalfası olmuştur</p>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">Çalışmalarım</h3>
+            <div class="gallery">
+                <img src="https://doctormix.com/wp-content/uploads/2023/02/Mixing-Mastering-By-Doctor-Mix-1000.jpg" alt="Donut">
+                <img src="https://lwks.com/hubfs/Audio%20Engineer-min.webp" alt="Donut">
+                <img src="https://i0.shbdn.com/photos/54/38/63/x5_1154543863jhs.jpg" alt="Dinazor">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhZ-KmeUkIhU6hOT38R1sbdY89TmPYd84KQ&s" alt="Kayıp Dünya">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaS9eN45Xcg03sRoKD5jfhXdbaQGR0RCQzdg&s" alt="Yatak Odası">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFthKPtt4TQ33IESiDHliiPmuKQ0VgVHfGNw&s" alt="Satranç">
+                <img src="https://img.freepik.com/free-vector/hand-drawn-country-music-illustration_52683-86250.jpg" alt="Kayıp">
+                <img src="https://f4.bcbits.com/img/0033050299_0" alt="Mimari">
+                <img src="https://i.scdn.co/image/ab67616d0000b2734afbf8212ec943855d0e8a55" alt="Koltuk">
+                <!-- Daha fazla proje ekleyebilirsiniz -->
+            </div>
+        </div>
+		
+        <div class="section">
+            <h3 class="section-title">YouTube Videolarım</h3>
+            <div class="video-container">
+                <iframe src="--https://www.youtube.com/embed/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <!-- Daha fazla video ekleyebilirsiniz -->
+            </div>
+        </div>
+
+        <div class="section">
+            <h3 class="section-title">İletişim</h3>
+            <p>E-posta: oquzhancahit@gmail.com</p>
+            <p>Nothin' last forever, and we both know hearts can change</p>
+            <p>Cahit Gökkaya @2024</p>
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">×</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="">
+        </div>
+    </div>
+
+    <script>
+        // Lightbox script
+        const galleryImages = document.querySelectorAll('.gallery img');
+        const lightbox = document.getElementById('lightbox');
+        const lightboxImg = document.getElementById('lightbox-img');
+        const close = document.querySelector('.close');
+
+        galleryImages.forEach(image => {
+            image.addEventListener('click', () => {
+                lightbox.style.display = 'block';
+                lightboxImg.src = image.src;
+            });
+        });
+
+        close.addEventListener('click', () => {
+            lightbox.style.display = 'none';
+        });
+
+        lightbox.addEventListener('click', (e) => {
+            if (e.target !== lightboxImg) {
+                lightbox.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
